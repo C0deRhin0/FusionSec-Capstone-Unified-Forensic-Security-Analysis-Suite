@@ -32,7 +32,7 @@ param(
 )
 
 Write-Output "========================================================"
-Write-Output "Powershell Automated Windows Security Logging – Unified Forensic & Security Analysis Suite"
+Write-Output 'Automated Windows Security Logging – Unified Forensic & Security Analysis Suite'
 Write-Output "Execution Level: $Level"
 Write-Output "========================================================`n"
 
@@ -196,7 +196,7 @@ function Invoke-SecurityReportGeneration {
 </head>
 <body>
     <h1>Security Log Analysis Report</h1>
-    <table border="1">
+    <table border=`"1`">
         <tr>
             <th>EventID</th>
             <th>Time</th>
