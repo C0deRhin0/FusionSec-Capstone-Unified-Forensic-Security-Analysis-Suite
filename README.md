@@ -16,16 +16,19 @@ The execution level is controlled by a single numeric parameter:
 
 ## EXAMPLE
 - Run all features (default Level = 3):
-  .\AutomatedWindowsSecurityLog.ps1
-
+   ```bash
+   .\AutomatedWindowsSecurityLog.ps1
+   ```
 - Run only forensic collection:
-  .\AutomatedWindowsSecurityLog.ps1 -Level 1
-
+   ```bash
+   .\AutomatedWindowsSecurityLog.ps1 -Level 1
+   ```
 - Run forensic + system logging/analysis:
-  .\AutomatedWindowsSecurityLog.ps1 -Level 2
+   ```bash
+   .\AutomatedWindowsSecurityLog.ps1 -Level 2
+   ```
 
 ## Installation
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/C0deRhin0/Windows-Poweshell-Unified-Forensic-Security-Analysis-Suite.git
@@ -40,7 +43,6 @@ The execution level is controlled by a single numeric parameter:
    Refer to "Example" section
 
 ## License
-
 This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
