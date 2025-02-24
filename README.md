@@ -24,3 +24,34 @@ The execution level is controlled by a single numeric parameter:
 - Run forensic + system logging/analysis:
   .\AutomatedWindowsSecurityLog.ps1 -Level 2
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/C0deRhin0/Windows-Poweshell-Unified-Forensic-Security-Analysis-Suite.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd Windows-Poweshell-Unified-Forensic-Security-Analysis-Suite
+   ```
+
+3. Running the script:
+   Refer to "Example" section
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- Big thanks to Security Blue Team for introducing this course and for the wonderful lessons and capstone.
+
+## Contact
+
+For any inquiries or support, please contact:
+
+- **Author**: C0deRhin0 
+- **GitHub**: [C0deRhin0](https://github.com/C0deRhin0)
+
+---
