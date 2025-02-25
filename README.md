@@ -2,15 +2,15 @@
 Powershell script that combines the three functionalities: basic forensic data collection, system logging (with analysis of successful logins), and a security report generator. All in one script. 
 
 ## DESCRIPTION
-  This script performs three security functions:
-    1. Forensic Collection: Gathers system info, local users, processes, network connections, and recent system event logs.
-    2. Syslog Analysis: Collects today’s successful login events (Event ID 4624) and outputs a summary.
-    3. Security Report: Exports logs from several sources (System, Application, Security, and Sysmon) to CSV files and generates an HTML report.
+This script performs three security functions:
+  1. Forensic Collection: Gathers system info, local users, processes, network connections, and recent system event logs.
+  2. Syslog Analysis: Collects today’s successful login events (Event ID 4624) and outputs a summary.
+  3. Security Report: Exports logs from several sources (System, Application, Security, and Sysmon) to CSV files and generates an HTML report.
 
-  The execution level is determined by the numeric parameter:
-    - Level 1: Forensic Collection only.
-    - Level 2: Forensic Collection and Syslog Analysis.
-    - Level 3 (or unspecified): All three functions are executed.
+The execution level is determined by the numeric parameter:
+  - Level 1: Forensic Collection only.
+  - Level 2: Forensic Collection and Syslog Analysis.
+  - Level 3 (or unspecified): All three functions are executed.
 
 ## PS
 This script is a capstone project for Security Blue Team: PowerShell Course. Some constructs used in this script were based on their powershell course.
