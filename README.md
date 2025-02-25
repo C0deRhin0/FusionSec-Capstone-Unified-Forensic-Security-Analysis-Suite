@@ -1,5 +1,5 @@
 # PowerShell Automated Windows Security Logging: Unified Forensic Security Analysis Suite
-Powershell script that combines the three functionalities: basic forensic data collection, system logging (with analysis of successful logins), and a security report generator. All in one script. 
+PowerShell script that combines the three functionalities: basic forensic data collection, system logging (with analysis of successful logins), and a security report generator. All in one script. 
 
 ## DESCRIPTION
 This script performs three security functions:
