@@ -30,6 +30,7 @@ This script is a capstone project for Security Blue Team: PowerShell Course. Som
    ```
 
 ## Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/C0deRhin0/Windows-Poweshell-Unified-Forensic-Security-Analysis-Suite.git
@@ -42,6 +43,8 @@ This script is a capstone project for Security Blue Team: PowerShell Course. Som
 
 3. Running the script:
    Refer to "Example" section
+
+OR you can just download the file in this repo and run it as administrator.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
